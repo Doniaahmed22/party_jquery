@@ -1,0 +1,175 @@
+.home {
+    background-color: aqua;
+    height: 100%;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.heading {
+    color: aliceblue;
+    margin-bottom: 30px;
+
+}
+
+.heading h1 {
+    font-size: 50px;
+}
+
+.heading h5 {
+    font-size: 25px;
+}
+
+.home .cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 15, 30, 0.6);
+}
+
+.sideBar {
+    position: fixed;
+    z-index: 99999999999999;
+    display: flex;
+    left: -500px;
+    align-items: center;
+    height: 100%;
+}
+
+.sideFixed {
+    background-color: #000;
+    color: #fff;
+    width: 180px;
+    height: 100%;
+}
+
+.items {
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 1s;
+    margin-top: 15%;
+    padding: 15px;
+    padding-top: 10%;
+    color: #fff;
+}
+
+.items:hover {
+    color: rgb(209, 24, 40);
+}
+.close{
+    transition: all 1s;
+    cursor: pointer;
+    float: right;
+    padding:5%;
+}
+.close:hover{
+    color: rgb(209, 24, 40);
+}
+.side {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 5px;
+
+}
+
+.openClose {
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(214, 55, 55);
+    cursor: pointer;
+}
+
+.downItem {
+    text-align: center;
+    background-color: #f5c3c3;
+    display: none;
+}
+
+.downItem p {
+    text-align: center;
+    padding: 5px;
+}
+
+.event {
+    margin-top: 10%;
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+}
+
+.event .cover {
+
+    background-color: rgba(255, 15, 30, 0.6);
+}
+
+.event .cover2 {
+    border: 1px solid #fff;
+    margin: 2% 2%;
+
+}
+
+.event span {
+    height: 100px;
+    width: 150px;
+    margin: 8% 5%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.p {
+    color: rgb(209, 24, 40);
+}
+
+.social span {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 2%;
+}
+
+.contact {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .heading h1 {
+        font-size: 30px;
+    }
+
+    .heading h5 {
+        font-size: 15px;
+    }
+
+    .sideFixed {
+        width: 120px;
+    }
+
+    .items {
+        font-size: 20px;
+    }
+
+    .side {
+        font-size: 25px;
+        cursor: pointer;
+        position: absolute;
+        left: 5px;
+    
+    }
+
+    .event .cover2 {
+        width: 50%;
+    }
+}
